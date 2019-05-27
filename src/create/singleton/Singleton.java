@@ -9,7 +9,7 @@ package create.singleton;
 
 public class Singleton {
     /**
-     * 构造函数
+     * 私有化构造函数 不允许外界new  保证始终单例
      */
     private Singleton() {
     }
